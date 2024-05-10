@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body{
+    background:#382e2e ;
+    padding: 20px;
+}
+
+
+/*CABECERA*/
+header{
+    max-width: 1000px;
+    min-height: 130px;
+    margin: 0 auto;
+    border-radius: 20px 20px 0 0;
+  /* Permalink - use to edit and share this gradient. Enlace permanente - úsalo para editar y compartir este gradiente: https://colorzilla.com/gradient-editor/#000000+0,0a0e0a+83,0a0e0a+83,6e7774+100 */
+background: linear-gradient(to bottom,  #000000 0%,#0a0e0a 83%,#0a0e0a 83%,#6e7774 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+
+#Logo{
+   float: left;
+   margin-top: 10px;
+   margin-left: 10px;
+   animation: 1s entdradalogo 1;
+}
+
+
+/*CABECERA*/
+
+
+
+
+
+
+/*MENU-H*/
+#menu-h{
+    max-width: 1000px;
+    min-height: 50px;
+    background: #000;
+     margin: 0 auto;
+}
+ 
+
+#menu-h ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+#menu-h a{
+    color: #fff;
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    background: #000;
+    font-family: arial ;
+  
+
+}
+
+#menu-h a:hover{
+    background: brown;
+}
+
+#menu-h ul ul{
+    display: none;
+    position: absolute;
+
+}
+
+
+#menu-h ul li:hover ul{
+    display: block;
+}
+
+/*MENU-H*/
+
+
+
+
+
+
+#banner{
+    max-width: 1000px;
+    min-height: 250px;
+    background: #444;
+    margin: 0 auto;
+}
+
+#contenedor{
+    max-width: 1000px;
+    min-height: 700px;
+    background: #665a5a;
+    margin: 0 auto;
+
+}
+
+
+
+/*MENU-V*/
+
+#menu-v{
+    width: 300px;
+    min-height: 700px;
+    float: left;
+    /* Permalink - use to edit and share this gradient. Enlace permanente - úsalo para editar y compartir este gradiente: https://colorzilla.com/gradient-editor/#959595+0,0d0d0d+31,010101+50,4e4e4e+97,383838+99 */
+background: linear-gradient(to bottom,  rgba(149,149,149,1) 0%,rgba(13,13,13,1) 31%,rgba(1,1,1,1) 50%,rgba(78,78,78,1) 97%,rgba(56,56,56,1) 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+}
+
+#menu-v ul{
+    list-style: none;
+    padding: 10px;
+}
+
+#menu-v a{
+    display: block;
+    color: #000;
+    padding: 10px;
+    text-decoration: none;
+    border: 1px solid #000 ;
+    margin-bottom: 8px;
+    border-radius: 5px;
+    font-family: arial;
+    font-size: 15px;
+    /* Permalink - use to edit and share this gradient. Enlace permanente - úsalo para editar y compartir este gradiente: https://colorzilla.com/gradient-editor/#840800+53,cc0000+100 */
+background: linear-gradient(to bottom,  #840800 53%,#cc0000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+}
+
+#menu-v a:hover{
+    /* Permalink - use to edit and share this gradient. Enlace permanente - úsalo para editar y compartir este gradiente: https://colorzilla.com/gradient-editor/#aebcbf+0,6e7774+50,0a0e0a+97,0a0809+100 */
+background: linear-gradient(to bottom,  #aebcbf 0%,#6e7774 50%,#0a0e0a 97%,#0a0809 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+#menu-v a:hover img{
+    animation: 1s rotacion 1;
+}
+
+
+
+/*MENU-V*/
+
+
+
+
+
+/*CONTENIDO*/
+
+#contenido{
+    width: 700px;
+    min-height: 700px;
+    float: right;
+    padding: 15px;
+    box-sizing: border-box;
+    /* Permalink - use to edit and share this gradient. Enlace permanente - úsalo para editar y compartir este gradiente: https://colorzilla.com/gradient-editor/#bcbcbc+14,bcbcbc+14,ffffff+78 */
+background: linear-gradient(to bottom,  rgba(188,188,188,1) 14%,rgba(188,188,188,1) 14%,rgba(255,255,255,1) 78%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+   
+}
+
+#contenido p{
+    margin-bottom: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    text-align: justify;
+}
+ 
+#contenido h1{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 25px;
+}
+
+
+
+.comida{
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 150px;
+    border: 1px solid #acaaaa;
+}
+
+/*CONTENIDO*/
+
+
+
+/*PIE DE PAGINA*/
+footer{
+    max-width: 1000px;
+    background: #000;
+    margin: 0 auto;
+    border-radius: 0 0 20px 20px;
+    color: #fff;
+    text-align: center;
+    padding: 30px;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+
+
+/*PIE DE PAGINA*/
+
+
+
+/*KEYFRAMES*/
+
+@keyframes entradalogo{
+    0%{
+        transform: translateY(-200px);
+    }
+}
+
+
+
+@keyframes rotacion{
+    0%{
+        transform: rotate(270deg);
+    }
+}
